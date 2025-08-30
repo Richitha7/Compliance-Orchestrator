@@ -1,0 +1,1 @@
+{"session_id": "demo-session-1", "entries": [{"timestamp": "2025-08-30T15:59:08Z", "event": "planner_started", "data": {}}, {"timestamp": "2025-08-30T15:59:08Z", "event": "awaiting_human", "data": {"request_id": "cc6cd56f-6feb-4fdf-b892-1aad0233d379", "type": "upload_request"}}]}
