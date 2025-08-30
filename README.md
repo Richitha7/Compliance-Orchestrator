@@ -1,4 +1,5 @@
 # AI Compliance & Risk Orchestrator
+_An async FastAPI system for compliance & risk evaluation with multi-agent RAG and human-in-the-loop (HITL) review._
 
 this repo focuses strictly on the **Core Requirements**.
 It is intentionally practical, with fallbacks so it runs on a basic laptop even if MongoDB/Redis are not available.
