@@ -10,6 +10,7 @@ from .storage.mongo import store
 from .storage.vectorstore import vector_store
 from .utils.guardrails import validate_decision
 from .workflow import run_job
+from server.agents.llm_agent import llm_agent
 
 app = FastAPI(default_response_class=ORJSONResponse)
 
