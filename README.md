@@ -39,7 +39,7 @@ Copy `.env.example` to `.env` and adjust if you have MongoDB/Redis locally. If n
 
 ## Architecture
 
-![Architecture Diagram](docs/architecture-diagram.png)
+![Architecture Diagram](docs/architecture.png)
 
 **Fan‑out / Fan‑in:** Policy, Evidence, Vision/OCR, Code agents run in **parallel** → merged → Risk Scorer → Red‑Team Critic → Final Aggregator.
 
@@ -79,3 +79,8 @@ See `demo_script.md` for 3 runs:
 7) Reliability (tenacity retries, timeouts, circuit breaker)
 8) API design (clear endpoints + streaming‑style progress)
 9) Code quality (typed modules, comments, small tests)
+
+### LLM Agent
+- A simple LLM-based agent is integrated to summarize/answer using available evidence.
+- Set `OPENAI_API_KEY` in `.env` to enable.
+- Output is included under the `llm` field in the final decision JSON.
